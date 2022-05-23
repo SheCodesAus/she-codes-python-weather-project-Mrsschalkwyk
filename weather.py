@@ -14,7 +14,6 @@ def format_temperature(temp):
         A string contain the temperature and "degrees celcius."
     """
     return f"{temp}{DEGREE_SYBMOL}"
-# print(format_temperature("32")) #this is just to check it is not correst
 
 def convert_date(iso_string):
     """Converts and ISO formatted date into a human readable format.
@@ -50,21 +49,7 @@ def calculate_mean(weather_data):
         A float representing the mean value.
     """
 
-    # if weather_data == []:
-    #             return ()
-    # else:
-    #     min_temp = weather_data[0]
-    #     min_location = 0
-    #     index = 0
-    #     for num in weather_data:
-    #         if float(num) <= float(min_temp):
-    #             min_temp = float(num)
-    #             min_location = index
-    #         index +=1
-    #     return min_temp, min_location
-
-
-
+# list length in to divide the items to get the mean
 
     if weather_data == []:
                 return ()
